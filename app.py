@@ -15,7 +15,7 @@ def home():
     return (
         "<h1>Salary Prediction API</h1>"
         "<p>BAIS:3300 - Digital Product Development</p>"
-        "<p>Mike Colbert</p>"
+        "<p>Amanda Williams</p>"
     )
 
 
@@ -73,4 +73,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5002, debug=True)
+    app.run(host="0.0.0.0", port=5003, debug=True)
